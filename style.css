@@ -101,10 +101,10 @@ header {
 
 .hero-container {
     background-color: #f7f7f7;
-    width: 100%;
+    width: 1519px;
     height: 558px;
     display: flex;
-    padding: 0px 64px;
+    padding-left: 64px;
 }
 .main-hero {
     width: 710px;
@@ -113,9 +113,15 @@ header {
     margin: auto 0px;
 }
 .hero-img {
-    width: 575px;
+    overflow: hidden;
+    width: 815px;
     height: 558px;
-
+}
+.hero-img img {
+    width: 815px;
+    height: 558px;
+    object-fit: cover;
+    object-position: center;
 }
 .hero-data {
     position: absolute;
@@ -125,7 +131,6 @@ header {
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-    color: rgb(51,51,51);
 }
 .hero-input {
     background-color: white;
@@ -136,6 +141,8 @@ header {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .hero-input input {
+    border: 1px solid gray;
+
     width: 380px;
     height: 48px;
     padding: 12px 16px 12px 15px;
@@ -177,7 +184,7 @@ header {
     position: relative;
 }
 .vendor-state img {
-    width: 1400px;
+    width: 1583px;
     height: 404px;
     object-fit: cover;
     object-position: center;
@@ -201,5 +208,19 @@ header {
     left: 64px;
     border-radius: 10px;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;;
-
+    overflow: hidden;
+}
+.abc img {
+    width: 250px;
+    height: 210px;
+    padding: 50px 0px 0px 50px;
+}
+.abc span {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.locations {
+    width: 1583px;
+    height: 404px;
 }
