@@ -40,6 +40,7 @@ header {
     background-color: #F0F2F2;
     transform: scale(1.1);
     transition: .3s;
+    cursor: pointer;
 }
 .signup-btn {
     display: flex;
@@ -60,6 +61,7 @@ header {
     background-color: #C21760;
     transform: scale(1.1);
     transition: .3s;
+    cursor: pointer;
 }
 .header-icons {
     display: flex;
@@ -76,6 +78,7 @@ header {
     background-color: #F0F2F2;
     transform: scale(1.1);
     transition: .3s;
+    cursor: pointer;
 }
 .header-role {
     display: flex;
@@ -93,6 +96,7 @@ header {
     background-color: #F0F2F2;
     transform: scale(1.2);
     transition: .3s;
+    cursor: pointer;
 }
 
 .arow-dwn {
@@ -177,6 +181,7 @@ header {
     background-color: #C21760;
     transform: scale(1.1);
     transition: .3s;
+    cursor: pointer;
 }
 .vendor-state {
     width: 1440px;
