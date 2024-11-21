@@ -13,16 +13,17 @@ header {
     display: flex;
     /* position: relative; */
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    padding: 0px 128px;
+
 }
 .logo img {
     margin-top: 18.83px;
     width: 136.66px;
-    margin-left: 64px;
 }
 .header-btns {
     display: flex;
     position: absolute;
-    right: 64px;
+    right: 128px;
     top: 16px;
 }
 
@@ -87,12 +88,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-size: 24px;
     width: 44px;
     height: 32px;
     text-align: center;
-    margin-left: 32px;
     border-radius: 100px;
 }
 .header-role:hover {
@@ -111,7 +111,7 @@ header {
     width: 1519px;
     height: 558px;
     display: flex;
-    padding-left: 64px;
+    padding-left: 128px;
 }
 .main-hero {
     width: 710px;
@@ -145,8 +145,7 @@ header {
     width: 700px;
     height: 80px;
     border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;}
 .hero-input input {
     border: 1px solid gray;
 
@@ -203,8 +202,8 @@ header {
     font-size: 30px;
     font-weight: 700;
     line-height: 52px;
-    color: black
-    margin-left: 64px;
+    color: black;
+    margin-left: 128px;
     padding: 64px 0px 0px 0px;
 }
 .vendor-card {
@@ -213,12 +212,9 @@ header {
     height: 322px;
     background-color: white;
     bottom: -161px;
-    left: 64px;
+    left: 128px;
     border-radius: 10px;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;;
-    /* overflow: hidden; */
-    box-sizing: border-box;
-    display: flex;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;    display: flex;
     padding: 0px 24px 24px 24px;
 }
 
@@ -256,16 +252,32 @@ Line-height: 24px;
 }
 
 .locations {
-    padding: 0px 64px;
-    background-color: aqua;
+    margin-top: ;
+    padding: 0px 128px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 16px;
+    row-gap: 16px;
+    column-gap: 16px;
 }
 .locations-box {
-    width: 345px;
-    height: 250px;
+    overflow: hidden;
+    width: 313px;
+    height: 222px;
     background-color: pink;
     border: 1px solid #6B7680;
+    border-radius:  15px;
+}
+.locations-box img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+.loocation-text {
+    margin-top: 250px;
+    padding-left: 128px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    Font-size: 32px;
+    Font-weight: 600;
+    Line-height: 32px;
 }
