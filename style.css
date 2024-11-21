@@ -1,15 +1,18 @@
 body {
     padding: 0px;
     margin: 0px;
-    color: #6B7680;
 }
 header {
+    color: #6B7680;
+    z-index: 1;
+    background-color: white;
+    position: fixed;
     box-sizing: border-box;
     width: 100%;
     height: 64px;
     display: flex;
-    position: relative;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;;
+    /* position: relative; */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 .logo img {
     margin-top: 18.83px;
@@ -166,7 +169,7 @@ header {
     color: #6B7680;
 }
 .hero-input button {
-    width: 90px;
+    width: 100px;
     height: 43px;
     margin-left: 32px;
     background-color:#e21b70;
@@ -200,32 +203,69 @@ header {
     font-size: 30px;
     font-weight: 700;
     line-height: 52px;
-    color: rgb(51,51,51);
+    color: black
     margin-left: 64px;
     padding: 64px 0px 0px 0px;
 }
-.abc {
+.vendor-card {
     position: absolute;
-    width: 590px;
+    width: 570px;
     height: 322px;
     background-color: white;
     bottom: -161px;
     left: 64px;
     border-radius: 10px;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;;
-    overflow: hidden;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    display: flex;
+    padding: 0px 24px 24px 24px;
 }
-.abc img {
-    width: 250px;
-    height: 210px;
-    padding: 50px 0px 0px 50px;
+
+
+.vendor-card h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    Font-size: 24px;
+    Font-weight: 600;
+    Line-height: 32px;
 }
-.abc span {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 100px;
+.vendor-card p {
+font-family: Arial, Helvetica, sans-serif;
+Font-size: 15px;
+Font-weight: 400;
+Line-height: 24px;
 }
+.vendor-card button {
+    width: 100px;
+    height: 43px;
+    margin-left: 32px;
+    background-color:#e21b70;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin: 22px 24px 0px 0px;
+}
+.vendor-card button:hover {
+    background-color: #C21760;
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+}
+
 .locations {
-    width: 1583px;
-    height: 404px;
+    padding: 0px 64px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
+.locations-box {
+    width: 345px;
+    height: 250px;
+    background-color: pink;
+    border: 1px solid #6B7680;
 }
