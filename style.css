@@ -328,3 +328,115 @@ Line-height: 24px;
     width: 600px;
     padding-top: 8px;
 }
+.business-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 52px;
+    color: black;
+    margin-left: 128px;
+    padding: 64px 0px 0px 0px;
+}
+.business-state {
+    position: relative;
+}
+.business-state img {
+    width: 1583px;
+    height: 404px;
+    object-fit: cover;
+    object-position: center;
+}
+.business-card {
+    position: absolute;
+    width: 570px;
+    height: 224px;
+    background-color: white;
+    bottom: -112px;
+    left: 128px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 0px 24px 24px 24px;
+}
+.business-card h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    Font-size: 24px;
+    Font-weight: 600;
+    Line-height: 32px;
+    padding-top: 16px;
+}
+.business-card-card p {
+    padding-top: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 24px;
+    padding-top: 8px;
+}
+.business-card button {
+    text-align: center;
+    width: 100px;
+    height: 43px;
+    margin-left: 32px;
+    background-color:#e21b70;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin: 22px 24px 0px 0px;
+}
+.business-card button:hover {
+    background-color: #C21760;
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+}
+.contries {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid gray;
+    border-bottom:  1px solid gray;
+    width: 1327px;
+    height: 91px;
+    margin:200px auto 0px auto;
+
+}
+.contries a {
+    font-family: Arial, Helvetica, sans-serif;
+    Font-size: 16px;
+    Font-weight: 600;
+    Line-height: 25.6px;
+    text-decoration: none;
+    color: rgb(57, 67, 77);
+    padding: 8px;
+}
+.footer-contact {
+    box-sizing: border-box;
+    display: flex;
+    width: 1327px;
+    height: 459px;
+    margin: 0px 128px;
+    padding: 24px 0px;
+}
+.footer-right {
+
+    width: 75%;
+    height: inherit;
+}
+.footer-left {
+    color:#6B7680;
+    width: 25%;
+    height: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.footer-right table{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 24px;
+}
+.footer-right td {
+    padding: 12px;
+    color: rgb(57, 67, 77);
+}
