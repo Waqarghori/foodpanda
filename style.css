@@ -418,6 +418,7 @@ Line-height: 24px;
     height: 459px;
     margin: 0px 128px;
     padding: 24px 0px;
+    border-bottom: 1px solid gray;
 }
 .footer-right {
 
@@ -439,4 +440,30 @@ Line-height: 24px;
 .footer-right td {
     padding: 12px;
     color: rgb(57, 67, 77);
+}
+.footer-branding {
+    display: flex;
+    justify-content: space-between;
+    width: 1327px;
+    padding: 32px 0px;
+    margin: 0px auto;
+}
+.f-p {
+    padding: 0px  16px 0px 0px;
+    border-right: 1px solid gray;
+}
+.footer-icons {
+    display: flex;
+    gap: 24px;
+    justify-content: end;
+    font-size: 24px;
+}
+.footer-icons-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
 }
