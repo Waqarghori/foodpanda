@@ -267,6 +267,22 @@ Line-height: 24px;
     background-color: gray;
     border: 1px solid #6B7680;
     border-radius:  15px;
+    position: relative;
+}
+.locations-box-card {
+    box-sizing: border-box;
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    width: 40%%;
+    height: 46px;
+    padding: 8px 16px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    Font-size: 18px;
+    Font-weight: 600;
+    Line-height: 28px;
 }
 .locations-box img:hover {
     transform: scale(1.1);
@@ -285,7 +301,7 @@ Line-height: 24px;
 .download-feed {
     background-color: #e21b70;
     width:1327px;
-    margin: 0px auto;
+    margin: 0px 128px ;
     height: 336px;
     border-radius: 15px;
     display: flex;
@@ -446,7 +462,7 @@ Line-height: 24px;
     justify-content: space-between;
     width: 1327px;
     padding: 32px 0px;
-    margin: 0px auto;
+    margin: 0px 128px;
 }
 .f-p {
     padding: 0px  16px 0px 0px;
