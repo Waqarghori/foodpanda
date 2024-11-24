@@ -463,7 +463,13 @@ Line-height: 24px;
     justify-content: center;
     align-items: center;
     border: 1px solid gray;
-    border-radius: 16px;
+    border-radius: 50%;
     width: 32px;
     height: 32px;
+}
+.footer-icons-box:hover {
+    width: 37px;
+    height: 37px;
+    transform: translateY(-4px);
+    transition: .3s;
 }
